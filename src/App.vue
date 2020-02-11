@@ -1,16 +1,17 @@
 <template>
   <div id="app">
-    <elements></elements>
+    <Dashboard></Dashboard>
   </div>
 </template>
 
 <script>
-import Elements from "./views/Elements.vue";
+//import Elements from "./views/Elements.vue";
+import Dashboard from "./views/Dashboard.vue";
 
 export default {
   name: "app",
   components: {
-    Elements
+    Dashboard
   }
 };
 </script>
@@ -22,6 +23,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  background-color: greenyellow;
+  margin-top: 0px;
 }
 </style>
